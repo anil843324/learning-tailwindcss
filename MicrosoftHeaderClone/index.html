@@ -16,7 +16,11 @@
             <div class="line h-0.5 w-6 my-1 bg-black"></div>
             <div class="line h-0.5 w-6 my-1 bg-black"></div>
           </div>
-          <div class="search md:hidden">Search Icon</div>
+          <div class="search md:hidden
+          w-4 mr-6
+          ">
+            <img src="search.svg" alt="searchIcon">
+          </div>
         </div>
 
         <div class="logo text-center md:order-1 flex">
@@ -27,31 +31,38 @@
             />
           </div>
           <div
-            class="fetures md:flex inset-0 md:w-auto md:bg-white bg-gray-200 absolute w-fit -translate-x-96 md:mx-4 md:space-x-2 md:translate-x-0 md:static"
+            class="fetures md:flex inset-0 md:w-auto md:bg-white bg-gray-200 absolute w-fit -translate-x-96 md:mx-4 md:space-x-6 md:translate-x-0 md:static md:items-center "
+            
           >
-            <div class="fitem">Microsoft 365</div>
+            <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Microsoft 365</div>
 
-            <div class="fitem">Office</div>
+            <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer ">Office</div>
 
-            <div class="fitem">Windows</div>
+            <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer ">Windows</div>
 
-            <div class="fitem">Surface</div>
+            <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer ">Surface</div>
 
-            <div class="fitem">Xbox</div>
+            <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer ">Xbox</div>
 
-            <div class="fitem">Support</div>
+            <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer ">Support</div>
           </div>
         </div>
         <div class="cart text-center md:order-3 flex">
-          <div class="search hidden md:block">All Microsoft Search Icon</div>
-          <div>Cart Account</div>
+          <div class="search hidden md:block mr-6 ">All Microsoft   </div>
+           <div class="mx-2 hidden md:block">Search</div>
+          <img class="w-4 mr-6 hidden md:block" src="search.svg" alt="searchIcon">
+          <div class="flex md:pt-1">
+            <img class="w-4 h-4 mr-4 " src="cart.svg" alt="cart">
+            <img class="w-4 h-4 mr-4 " src="abstract-user-flat-2.svg" alt="account">
+
+          </div>
         </div>
       </div>
 
       <!-- slider -->
       <div class="slider flex flex-col-reverse md:flex-row mx-2 bg-[#f2f2f2]">
         <div
-          class="left flex flex-col justify-center items-center md:items-baseline py-12"
+          class="left flex flex-col justify-center items-center md:items-baseline py-12 md:ml-32 space-y-5"
         >
           <h1 class="md:text-4xl font-medium text-2xl mx-5">
             Surface Laptop 4
@@ -75,25 +86,25 @@
 
       <!--  promo -->
 
-      <div class="promo space-y-6 md:flex md:justify-center md:items-center">
+      <div class="promo space-y-6 md:flex md:justify-center md:items-center md:space-x-16">
         <div class="item flex md:flex-col items-center mx-4 space-x-2 mt-6">
-          <img src="" alt="imglogo" />
-          <span class="font-medium">Chose your Microsoft 365 </span>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Windows_logo_2012-Black.svg/2048px-Windows_logo_2012-Black.svg.png" class="h-8" alt="imglogo" />
+          <span class="font-medium md:w-[8rem]  md:text-center text-sm ">Chose your Microsoft 365 </span>
         </div>
 
         <div class="item flex md:flex-col items-center mx-4 space-x-2">
-          <img src="" alt="imglogo" />
-          <span class="font-medium">Explore Surface devices </span>
+          <img src="xbox-svgrepo-com.svg"  class="h-8" alt="imglogo" />
+          <span class="font-medium md:w-[8rem] md:text-center text-sm">Explore Surface devices </span>
         </div>
 
         <div class="item flex md:flex-col items-center mx-4 space-x-2">
-          <img src="" alt="imglogo" />
-          <span class="font-medium">Buy Xbox games </span>
+          <img src="xbox-svgrepo-com.svg" class="h-8" alt="imglogo" />
+          <span class="font-medium md:w-[6rem] md:text-center text-sm ">Buy Xbox games </span>
         </div>
 
         <div class="item flex md:flex-col items-center mx-4 space-x-2">
-          <img src="" alt="imglogo" />
-          <span class="font-medium">Get Windows 11 </span>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Windows_logo_2012-Black.svg/2048px-Windows_logo_2012-Black.svg.png" class="h-8" alt="imglogo" />
+          <span class="font-medium md:w-[8rem]  md:text-centertext-sm ">Get Windows 11 </span>
         </div>
       </div>
     </div>
