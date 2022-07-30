@@ -19,7 +19,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="w-full  h-[90px] bg-black">
+    <div className="w-full  h-[60px] bg-black">
       <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
         <div>
           <h1 className="text-[#00d8ff] ">DEFI</h1>
@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
         {/* mobile menu */}
         {
-            !toggle ? <div className="  md:hidden w-full  bg-black text-white absolute top-[90px] left-0  flex justify-center text-center">
+            !toggle ? <div className="  md:hidden w-full  bg-black text-white absolute top-[60px] left-0  flex justify-center text-center">
           <ul className="text-2xl">
             <li>Platform</li>
             <li>Developers</li>
