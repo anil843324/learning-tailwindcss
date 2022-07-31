@@ -10,7 +10,7 @@
 
  @layer base{
     * {
-        @apply font-[Kanit]
+        @apply font-[Kanit] ;
       }
 
     h1{
